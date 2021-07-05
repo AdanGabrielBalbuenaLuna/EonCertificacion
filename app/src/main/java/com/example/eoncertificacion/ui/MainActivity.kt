@@ -1,7 +1,8 @@
-package com.example.eoncertificacion
+package com.example.eoncertificacion.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.eoncertificacion.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

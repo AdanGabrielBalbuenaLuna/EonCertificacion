@@ -1,10 +1,9 @@
-package com.example.eoncertificacion
+package com.example.eoncertificacion.ui.movie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import com.example.eoncertificacion.R
 import com.example.eoncertificacion.databinding.FragmentMovieBinding
 
 class MovieFragment : Fragment(R.layout.fragment_movie) {
