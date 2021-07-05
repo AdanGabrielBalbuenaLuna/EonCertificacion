@@ -3,15 +3,16 @@ package com.example.eoncertificacion.repository
 import com.example.eoncertificacion.data.model.MovieList
 
 class MovieRepositoryImpl:MovieRepository{
-    override fun getUpcomingMovies(): MovieList {
+    override suspend fun getUpcomingMovies(): MovieList {
         TODO("Not yet implemented")
     }
 
-    override fun getTopRatedMovies(): MovieList {
+    override suspend fun getTopRatedMovies(): MovieList {
         TODO("Not yet implemented")
     }
 
-    override fun getPopularMovies(): MovieList {
+    override suspend fun getPopularMovies(): MovieList {
         TODO("Not yet implemented")
     }
+
 }
